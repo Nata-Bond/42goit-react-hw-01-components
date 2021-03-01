@@ -2,13 +2,13 @@ import styled from "styled-components";
 
 const List = styled.ul`
   list-style: none;
-  margin-left: 206px;
+  width: 300px;
+  margin: auto;
   margin-bottom: 100px;
   padding-left: 0;
 `;
 
 const ListItem = styled.li`
-  width: 300px;
   height: 80px;
   display: flex;
   justify-content: flex-start;
